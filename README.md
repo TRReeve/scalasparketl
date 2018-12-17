@@ -27,10 +27,10 @@ Spark functions and configurations
 
 **INSTALLATION**
 
-#1.  Build the docker environment
+#1.  *Build the docker environment*
 
 docker build -t virginsparketl:v1
 
-#2. Run the docker environment to compile the packages with sbt and run the process
+#2. *Run the docker environment to compile the packages with sbt and run the process*
 
 docker run virginsparketl:v1
