@@ -44,7 +44,8 @@ class ApiRequest(url: String) {
     val index = dimensions.index.map(_.swap)
 
     //map together values and dimensions via data index and yield to record
-    val region_value_map = OutputMap({for ((value, increment) <- measures.value.zipWithIndex) yield RecordValue(dimensions.label(index(increment.toString)), value, ukpoptotal)})
+    val region_value_map = OutputMap({for ((value, increment) <- measures.value.zipWithIndex) 
+                                      yield RecordValue(dimensions.label(index(increment.toString)), value, ukpoptotal)})
 
     //write to json
     val map_to_json =write(region_value_map.data)
