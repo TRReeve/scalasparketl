@@ -2,7 +2,7 @@ Requirements
 
 - Docker
 
--Unix System
+- Unix System
 
 A concept ETL process utilising spark and scala to process a large file of user info
 and join this data with other data from an API request in a scalable manner using Apache Spark. Main advantage being
@@ -11,7 +11,7 @@ due to being a distributed computation framework it can also be expanded to proc
 
 the end point for now is a JSON file but could as easily be loaded into a database or a cassandra cache etc.
 
-Main Classes
+**Main Classes**
 
 Main workbook with queries
 /home/treeve/virgindatatest/src/main/scala/Main.scala
@@ -25,7 +25,7 @@ Spark functions and configurations
 /home/treeve/virgindatatest/src/main/scala/SparkUtils.scala
 
 
-INSTALLATION
+**INSTALLATION**
 
 #1.  Build the docker environment
 
