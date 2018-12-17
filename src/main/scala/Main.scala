@@ -72,14 +72,17 @@ object Main extends App {
 
   println(s"getting api data from $apiurl")
 
-  //initalise API class, map data and jump data to .json
+  //initalise API class, map data and dump data to .json
   val apisession = new ApiRequest(apiurl)
 
+  //make api request and transform
   val apidata = apisession.get_json_data()
 
   println(apidata)
 
   val apioutputfile = "ukpopdata.json"
+
+  //transform raw json request to .Json file
   apisession.api_data_to_json(apidata,apioutputfile)
 
   println("\n Exercise two completed, combining data for exercise 3")
