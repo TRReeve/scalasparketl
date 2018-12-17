@@ -1,5 +1,7 @@
 Requirements
+
 - Docker
+
 -Unix System
 
 A concept ETL process utilising spark and scala to process a large file of user info
@@ -11,19 +13,19 @@ the end point for now is a JSON file but could as easily be loaded into a databa
 
 Main Classes
 
-#main workbook with queries
+Main workbook with queries
 /home/treeve/virgindatatest/src/main/scala/Main.scala
 
 Also contains outputs of the data if you are unable to run the programme
 
-#API requests and JSON transformation
+API requests and JSON transformation
 /home/treeve/virgindatatest/src/main/scala/APIutls.scala
 
 Spark functions and configurations
 /home/treeve/virgindatatest/src/main/scala/SparkUtils.scala
 
 
-#INSTALLATION
+INSTALLATION
 
 #1.  Build the docker environment
 
