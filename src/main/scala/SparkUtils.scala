@@ -4,7 +4,7 @@ import org.apache.spark.sql.functions._
 class SparkUtils(sessionname: String,host:String) {
 
   //initialise spark session
-  val sparkSession:SparkSession = SparkSession
+  val sparkSession = SparkSession
     .builder
     .master(host)
     .appName(sessionname)
