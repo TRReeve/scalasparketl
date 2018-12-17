@@ -22,7 +22,7 @@ class SparkUtils(sessionname: String,host:String) {
     println(s"loaded $target_file to spark view $viewname \n")
   }
 
-  def query_to_sparkview(query:String, viewname: String): Unit = {
+  def query_to_sparkview(query:String, viewname: String)  {
 
     val newContext = sparkSession.sql(query)
       .cache()
