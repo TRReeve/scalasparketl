@@ -1,0 +1,627 @@
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: json4s-core_2.11-3.2.11.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: osgi-resource-locator-1.0.1.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: json4s-ast_2.11-3.2.11.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: metrics-core-3.1.2.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: objenesis-2.1.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: spark-unsafe_2.11-2.1.0.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: xbean-asm5-shaded-4.4.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: hadoop-client-2.2.0.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: jets3t-0.7.1.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: xmlenc-0.52.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: scalap-2.11.12.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: commons-httpclient-3.1.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: curator-recipes-2.4.0.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: commons-io-2.1.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: commons-beanutils-1.7.0.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: curator-framework-2.4.0.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: commons-beanutils-core-1.8.0.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: curator-client-2.4.0.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: jersey-server-2.22.2.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: jersey-media-jaxb-2.22.2.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: commons-net-2.2.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: validation-api-1.1.0.Final.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: hadoop-mapreduce-client-core-2.2.0.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: jersey-container-servlet-2.22.2.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: protobuf-java-2.5.0.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: hadoop-yarn-server-common-2.2.0.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: hadoop-common-2.2.0.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: log4j-1.2.17.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: jersey-container-servlet-core-2.22.2.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: hadoop-auth-2.2.0.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: hadoop-mapreduce-client-shuffle-2.2.0.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: hadoop-annotations-2.2.0.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: hadoop-mapreduce-client-jobclient-2.2.0.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: jsr305-1.3.9.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: zookeeper-3.4.5.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: spark-launcher_2.11-2.1.0.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: commons-lang-2.5.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: spark-tags_2.11-2.1.0.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: commons-cli-1.2.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: netty-3.8.0.Final.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: commons-math-2.1.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: guava-14.0.1.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: stream-2.7.0.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: javax.servlet-api-3.1.0.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: scala-library-2.11.12.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: metrics-jvm-3.1.2.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: metrics-json-3.1.2.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: commons-configuration-1.6.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: metrics-graphite-3.1.2.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: commons-math3-3.4.1.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: jul-to-slf4j-1.7.16.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: jcl-over-slf4j-1.7.16.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: jackson-module-scala_2.11-2.6.5.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: scalatest_2.11-2.2.6.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: jackson-module-paranamer-2.6.5.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: hadoop-hdfs-2.2.0.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: ivy-2.4.0.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: oro-2.0.8.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: jetty-util-6.1.26.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: pyrolite-4.13.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: py4j-0.10.4.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: hadoop-mapreduce-client-app-2.2.0.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: commons-crypto-1.0.0.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: scala-reflect-2.11.12.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: unused-1.0.0.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: compress-lzf-1.0.3.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: commons-collections-3.2.1.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: commons-digester-1.8.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: lz4-1.3.0.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: avro-ipc-1.7.7.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: RoaringBitmap-0.5.11.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: json4s-jackson_2.11-3.2.11.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: avro-1.7.7.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: spark-network-common_2.11-2.1.0.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: jackson-core-asl-1.9.13.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: hadoop-mapreduce-client-common-2.2.0.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: jersey-common-2.22.2.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: javax.annotation-api-1.2.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: snappy-java-1.1.2.6.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: jackson-mapper-asl-1.9.13.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: avro-mapred-1.7.7-hadoop2.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: hadoop-yarn-common-2.2.0.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: avro-ipc-1.7.7-tests.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: netty-all-4.0.42.Final.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: scala-xml_2.11-1.0.5.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: commons-lang3-3.5.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: hadoop-yarn-api-2.2.0.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: slf4j-log4j12-1.7.16.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: commons-compress-1.4.1.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: xz-1.0.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: slf4j-api-1.7.16.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: jersey-guava-2.22.2.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: guice-3.0.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: hk2-api-2.4.0-b34.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: chill_2.11-0.8.0.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: javax.inject-1.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: chill-java-0.8.0.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: aopalliance-1.0.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: hk2-utils-2.4.0-b34.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: aopalliance-repackaged-2.4.0-b34.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: javax.inject-2.4.0-b34.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: cglib-2.2.1-v20090111.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: kryo-shaded-3.0.3.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: hadoop-yarn-client-2.2.0.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: hk2-locator-2.4.0-b34.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: minlog-1.3.0.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: scala-parser-combinators_2.11-1.0.4.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: spark-core_2.11-2.1.0.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: javassist-3.18.1-GA.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: leveldbjni-all-1.8.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: jersey-client-2.22.2.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: javax.ws.rs-api-2.0.1.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: scala-compiler-2.11.12.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: jackson-databind-2.6.5.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: jackson-annotations-2.6.5.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: jackson-core-2.6.5.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: spark-network-shuffle_2.11-2.1.0.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: spark-sql_2.11-2.1.0.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: univocity-parsers-2.2.1.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: spark-sketch_2.11-2.1.0.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: spark-catalyst_2.11-2.1.0.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: janino-3.0.0.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: commons-compiler-3.0.0.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: antlr4-runtime-4.5.3.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: commons-codec-1.10.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: parquet-column-1.8.1.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: parquet-common-1.8.1.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: parquet-encoding-1.8.1.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: parquet-hadoop-1.8.1.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: parquet-format-2.3.0-incubating.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: parquet-jackson-1.8.1.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: lift-json_2.11-3.3.0.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: paranamer-2.8.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mCalculate mappings...[0m
+[0m[[0m[0minfo[0m] [0m[0mChecking every *.class/*.jar file's SHA-1.[0m
+[0m[[0m[0minfo[0m] [0m[0mMerging files...[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/ASL2.0' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/DEPENDENCIES' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/DUMMY.DSA' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/DUMMY.SF' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/INDEX.LIST' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/LICENSE_avro-1.7.7' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/LICENSE_avro-ipc-1.7.7' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/LICENSE_avro-ipc-1.7.7-tests' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/LICENSE_avro-mapred-1.7.7-hadoop2' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/LICENSE_commons-beanutils-1.7.0.txt' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/LICENSE_commons-beanutils-core-1.8.0.txt' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/LICENSE_commons-cli-1.2.txt' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/LICENSE_commons-codec-1.10.txt' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/LICENSE_commons-collections-3.2.1.txt' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/LICENSE_commons-compress-1.4.1.txt' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/LICENSE_commons-configuration-1.6.txt' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/LICENSE_commons-digester-1.8.txt' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/LICENSE_commons-httpclient-3.1.txt' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/LICENSE_commons-io-2.1.txt' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/LICENSE_commons-lang-2.5.txt' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/LICENSE_commons-lang3-3.5.txt' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/LICENSE_commons-math-2.1.txt' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/LICENSE_commons-math3-3.4.1.txt' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/LICENSE_commons-net-2.2.txt' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/LICENSE_compress-lzf-1.0.3' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/LICENSE_curator-client-2.4.0' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/LICENSE_curator-framework-2.4.0' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/LICENSE_curator-recipes-2.4.0' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/LICENSE_guice-3.0' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/LICENSE_ivy-2.4.0' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/LICENSE_jackson-annotations-2.6.5' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/LICENSE_jackson-core-2.6.5' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/LICENSE_jackson-core-asl-1.9.13' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/LICENSE_jackson-databind-2.6.5' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/LICENSE_jackson-mapper-asl-1.9.13' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/LICENSE_jackson-module-paranamer-2.6.5' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/LICENSE_jackson-module-scala_2.11-2.6.5' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/LICENSE_javax.annotation-api-1.2.txt' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/LICENSE_javax.servlet-api-3.1.0.txt' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/LICENSE_log4j-1.2.17' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/LICENSE_netty-3.8.0.Final.txt' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/LICENSE_objenesis-2.1' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/LICENSE_oro-2.0.8' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/LICENSE_parquet-column-1.8.1' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/LICENSE_parquet-common-1.8.1' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/LICENSE_parquet-encoding-1.8.1' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/LICENSE_parquet-format-2.3.0-incubating' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/LICENSE_parquet-hadoop-1.8.1' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/LICENSE_parquet-jackson-1.8.1' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/LICENSE_spark-catalyst_2.11-2.1.0' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/LICENSE_spark-core_2.11-2.1.0' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/LICENSE_spark-launcher_2.11-2.1.0' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/LICENSE_spark-network-common_2.11-2.1.0' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/LICENSE_spark-network-shuffle_2.11-2.1.0' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/LICENSE_spark-sketch_2.11-2.1.0' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/LICENSE_spark-sql_2.11-2.1.0' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/LICENSE_spark-tags_2.11-2.1.0' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/LICENSE_spark-unsafe_2.11-2.1.0' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/LICENSE_xbean-asm5-shaded-4.4' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/MANIFEST.MF' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/NOTICE_avro-1.7.7' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/NOTICE_avro-ipc-1.7.7' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/NOTICE_avro-ipc-1.7.7-tests' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/NOTICE_avro-mapred-1.7.7-hadoop2' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/NOTICE_commons-beanutils-1.7.0.txt' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/NOTICE_commons-beanutils-core-1.8.0.txt' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/NOTICE_commons-cli-1.2.txt' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/NOTICE_commons-codec-1.10.txt' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/NOTICE_commons-collections-3.2.1.txt' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/NOTICE_commons-compress-1.4.1.txt' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/NOTICE_commons-configuration-1.6.txt' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/NOTICE_commons-digester-1.8.txt' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/NOTICE_commons-httpclient-3.1.txt' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/NOTICE_commons-io-2.1.txt' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/NOTICE_commons-lang-2.5.txt' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/NOTICE_commons-lang3-3.5.txt' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/NOTICE_commons-math-2.1.txt' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/NOTICE_commons-math3-3.4.1.txt' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/NOTICE_commons-net-2.2.txt' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/NOTICE_compress-lzf-1.0.3' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/NOTICE_curator-client-2.4.0' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/NOTICE_curator-framework-2.4.0' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/NOTICE_curator-recipes-2.4.0' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/NOTICE_guice-3.0' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/NOTICE_ivy-2.4.0' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/NOTICE_jackson-core-2.6.5' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/NOTICE_jackson-core-asl-1.9.13' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/NOTICE_jackson-databind-2.6.5' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/NOTICE_jackson-mapper-asl-1.9.13' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/NOTICE_jackson-module-paranamer-2.6.5' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/NOTICE_log4j-1.2.17' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/NOTICE_netty-3.8.0.Final.txt' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/NOTICE_objenesis-2.1' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/NOTICE_parquet-column-1.8.1' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/NOTICE_parquet-common-1.8.1' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/NOTICE_parquet-encoding-1.8.1' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/NOTICE_parquet-format-2.3.0-incubating' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/NOTICE_parquet-hadoop-1.8.1' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/NOTICE_parquet-jackson-1.8.1' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/NOTICE_spark-catalyst_2.11-2.1.0' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/NOTICE_spark-core_2.11-2.1.0' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/NOTICE_spark-launcher_2.11-2.1.0' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/NOTICE_spark-network-common_2.11-2.1.0' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/NOTICE_spark-network-shuffle_2.11-2.1.0' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/NOTICE_spark-sketch_2.11-2.1.0' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/NOTICE_spark-sql_2.11-2.1.0' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/NOTICE_spark-tags_2.11-2.1.0' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/NOTICE_spark-unsafe_2.11-2.1.0' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/NOTICE_xbean-asm5-shaded-4.4' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/README_commons-httpclient-3.1.txt' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/io.netty.versions.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/jboss-beans.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/license_netty-3.8.0.Final/LICENSE.base64.txt' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/license_netty-3.8.0.Final/LICENSE.commons-logging.txt' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/license_netty-3.8.0.Final/LICENSE.felix.txt' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/license_netty-3.8.0.Final/LICENSE.jboss-logging.txt' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/license_netty-3.8.0.Final/LICENSE.jsr166y.txt' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/license_netty-3.8.0.Final/LICENSE.jzlib.txt' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/license_netty-3.8.0.Final/LICENSE.log4j.txt' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/license_netty-3.8.0.Final/LICENSE.protobuf.txt' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/license_netty-3.8.0.Final/LICENSE.slf4j.txt' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/license_netty-3.8.0.Final/LICENSE.webbit.txt' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/com.clearspring.analytics/stream/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/com.clearspring.analytics/stream/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/com.esotericsoftware/kryo-shaded/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/com.esotericsoftware/kryo-shaded/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/com.esotericsoftware/minlog/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/com.esotericsoftware/minlog/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/com.esotericsoftware/reflectasm/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/com.esotericsoftware/reflectasm/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/com.fasterxml.jackson.core/jackson-annotations/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/com.fasterxml.jackson.core/jackson-annotations/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/com.fasterxml.jackson.core/jackson-core/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/com.fasterxml.jackson.core/jackson-core/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/com.fasterxml.jackson.core/jackson-databind/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/com.fasterxml.jackson.core/jackson-databind/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/com.fasterxml.jackson.module/jackson-module-paranamer/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/com.fasterxml.jackson.module/jackson-module-paranamer/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/com.google.guava/guava/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/com.google.guava/guava/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/com.google.protobuf/protobuf-java/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/com.google.protobuf/protobuf-java/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/com.ning/compress-lzf/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/com.ning/compress-lzf/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/com.thoughtworks.paranamer/paranamer/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/com.thoughtworks.paranamer/paranamer/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/com.univocity/univocity-parsers/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/com.univocity/univocity-parsers/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/commons-cli/commons-cli/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/commons-cli/commons-cli/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/commons-codec/commons-codec/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/commons-codec/commons-codec/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/commons-collections/commons-collections/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/commons-collections/commons-collections/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/commons-configuration/commons-configuration/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/commons-configuration/commons-configuration/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/commons-io/commons-io/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/commons-io/commons-io/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/commons-lang/commons-lang/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/commons-lang/commons-lang/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/commons-net/commons-net/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/commons-net/commons-net/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/io.dropwizard.metrics/metrics-core/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/io.dropwizard.metrics/metrics-core/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/io.dropwizard.metrics/metrics-graphite/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/io.dropwizard.metrics/metrics-graphite/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/io.dropwizard.metrics/metrics-json/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/io.dropwizard.metrics/metrics-json/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/io.dropwizard.metrics/metrics-jvm/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/io.dropwizard.metrics/metrics-jvm/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/io.netty/netty-all/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/io.netty/netty-all/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/io.netty/netty/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/io.netty/netty/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/javax.annotation/javax.annotation-api/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/javax.annotation/javax.annotation-api/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/javax.servlet/javax.servlet-api/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/javax.servlet/javax.servlet-api/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/javax.validation/validation-api/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/javax.validation/validation-api/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/javax.ws.rs/javax.ws.rs-api/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/javax.ws.rs/javax.ws.rs-api/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/jline/jline/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/jline/jline/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/log4j/log4j/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/log4j/log4j/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/net.razorvine/pyrolite/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/net.razorvine/pyrolite/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/net.sf.py4j/py4j/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/net.sf.py4j/py4j/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.antlr/antlr4-runtime/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.antlr/antlr4-runtime/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.avro/avro-ipc/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.avro/avro-ipc/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.avro/avro-mapred/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.avro/avro-mapred/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.avro/avro/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.avro/avro/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.commons/commons-compress/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.commons/commons-compress/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.commons/commons-crypto/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.commons/commons-crypto/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.commons/commons-lang3/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.commons/commons-lang3/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.commons/commons-math/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.commons/commons-math/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.commons/commons-math3/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.commons/commons-math3/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.curator/curator-client/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.curator/curator-client/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.curator/curator-framework/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.curator/curator-framework/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.curator/curator-recipes/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.curator/curator-recipes/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.hadoop/hadoop-annotations/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.hadoop/hadoop-annotations/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.hadoop/hadoop-auth/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.hadoop/hadoop-auth/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.hadoop/hadoop-client/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.hadoop/hadoop-client/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.hadoop/hadoop-common/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.hadoop/hadoop-common/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.hadoop/hadoop-hdfs/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.hadoop/hadoop-hdfs/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.hadoop/hadoop-mapreduce-client-app/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.hadoop/hadoop-mapreduce-client-app/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.hadoop/hadoop-mapreduce-client-common/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.hadoop/hadoop-mapreduce-client-common/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.hadoop/hadoop-mapreduce-client-core/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.hadoop/hadoop-mapreduce-client-core/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.hadoop/hadoop-mapreduce-client-jobclient/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.hadoop/hadoop-mapreduce-client-jobclient/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.hadoop/hadoop-mapreduce-client-shuffle/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.hadoop/hadoop-mapreduce-client-shuffle/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.hadoop/hadoop-yarn-api/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.hadoop/hadoop-yarn-api/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.hadoop/hadoop-yarn-client/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.hadoop/hadoop-yarn-client/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.hadoop/hadoop-yarn-common/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.hadoop/hadoop-yarn-common/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.hadoop/hadoop-yarn-server-common/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.hadoop/hadoop-yarn-server-common/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.parquet/parquet-column/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.parquet/parquet-column/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.parquet/parquet-common/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.parquet/parquet-common/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.parquet/parquet-encoding/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.parquet/parquet-encoding/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.parquet/parquet-format/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.parquet/parquet-format/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.parquet/parquet-hadoop/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.parquet/parquet-hadoop/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.parquet/parquet-jackson/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.parquet/parquet-jackson/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.spark/spark-catalyst_2.11/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.spark/spark-catalyst_2.11/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.spark/spark-core_2.11/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.spark/spark-core_2.11/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.spark/spark-launcher_2.11/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.spark/spark-launcher_2.11/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.spark/spark-network-common_2.11/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.spark/spark-network-common_2.11/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.spark/spark-network-shuffle_2.11/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.spark/spark-network-shuffle_2.11/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.spark/spark-sketch_2.11/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.spark/spark-sketch_2.11/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.spark/spark-sql_2.11/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.spark/spark-sql_2.11/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.spark/spark-tags_2.11/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.spark/spark-tags_2.11/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.spark/spark-unsafe_2.11/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.spark/spark-unsafe_2.11/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.xbean/xbean-asm-util/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.xbean/xbean-asm-util/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.xbean/xbean-asm5-shaded/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.xbean/xbean-asm5-shaded/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.eclipse.jetty/jetty-client/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.eclipse.jetty/jetty-client/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.eclipse.jetty/jetty-continuation/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.eclipse.jetty/jetty-continuation/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.eclipse.jetty/jetty-http/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.eclipse.jetty/jetty-http/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.eclipse.jetty/jetty-io/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.eclipse.jetty/jetty-io/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.eclipse.jetty/jetty-plus/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.eclipse.jetty/jetty-plus/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.eclipse.jetty/jetty-proxy/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.eclipse.jetty/jetty-proxy/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.eclipse.jetty/jetty-security/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.eclipse.jetty/jetty-security/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.eclipse.jetty/jetty-server/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.eclipse.jetty/jetty-server/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.eclipse.jetty/jetty-servlet/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.eclipse.jetty/jetty-servlet/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.eclipse.jetty/jetty-servlets/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.eclipse.jetty/jetty-servlets/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.eclipse.jetty/jetty-util/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.eclipse.jetty/jetty-util/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.fusesource.leveldbjni/leveldbjni-all/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.fusesource.leveldbjni/leveldbjni-all/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.glassfish.hk2.external/aopalliance-repackaged/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.glassfish.hk2.external/aopalliance-repackaged/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.glassfish.hk2.external/javax.inject/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.glassfish.hk2.external/javax.inject/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.glassfish.hk2/hk2-api/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.glassfish.hk2/hk2-api/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.glassfish.hk2/hk2-locator/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.glassfish.hk2/hk2-locator/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.glassfish.hk2/hk2-utils/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.glassfish.hk2/hk2-utils/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.glassfish.hk2/osgi-resource-locator/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.glassfish.hk2/osgi-resource-locator/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.glassfish.jersey.bundles.repackaged/jersey-guava/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.glassfish.jersey.bundles.repackaged/jersey-guava/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.glassfish.jersey.containers/jersey-container-servlet-core/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.glassfish.jersey.containers/jersey-container-servlet-core/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.glassfish.jersey.containers/jersey-container-servlet/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.glassfish.jersey.containers/jersey-container-servlet/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.glassfish.jersey.core/jersey-client/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.glassfish.jersey.core/jersey-client/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.glassfish.jersey.core/jersey-common/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.glassfish.jersey.core/jersey-common/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.glassfish.jersey.core/jersey-server/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.glassfish.jersey.core/jersey-server/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.glassfish.jersey.media/jersey-media-jaxb/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.glassfish.jersey.media/jersey-media-jaxb/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.javassist/javassist/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.javassist/javassist/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.jvnet/tiger-types/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.jvnet/tiger-types/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.mortbay.jetty/jetty-util/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.mortbay.jetty/jetty-util/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.roaringbitmap/RoaringBitmap/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.roaringbitmap/RoaringBitmap/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.slf4j/jcl-over-slf4j/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.slf4j/jcl-over-slf4j/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.slf4j/jul-to-slf4j/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.slf4j/jul-to-slf4j/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.slf4j/slf4j-api/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.slf4j/slf4j-api/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.slf4j/slf4j-log4j12/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.slf4j/slf4j-log4j12/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.spark-project.spark/unused/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.spark-project.spark/unused/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/native/libnetty-transport-native-epoll.so' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/native/linux32/libjansi.so' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/native/linux32/libleveldbjni.so' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/native/linux64/libjansi.so' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/native/linux64/libleveldbjni.so' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/native/osx/libjansi.jnilib' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/native/osx/libleveldbjni.jnilib' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/native/windows32/jansi.dll' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/native/windows32/leveldbjni.dll' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/native/windows64/jansi.dll' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/native/windows64/leveldbjni.dll' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/services/com.fasterxml.jackson.core.JsonFactory' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/services/com.fasterxml.jackson.core.ObjectCodec' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/services/com.fasterxml.jackson.databind.Module' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/services/javax.script.ScriptEngineFactory' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/services/javax.servlet.ServletContainerInitializer' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/services/javax.ws.rs.ext.RuntimeDelegate' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/services/org.apache.commons.logging.LogFactory' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/services/org.apache.hadoop.fs.FileSystem' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/services/org.apache.hadoop.io.compress.CompressionCodec' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/services/org.apache.hadoop.mapreduce.protocol.ClientProtocolProvider' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/services/org.apache.hadoop.security.SecurityInfo' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/services/org.apache.hadoop.security.token.TokenIdentifier' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/services/org.apache.hadoop.security.token.TokenRenewer' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/services/org.apache.spark.scheduler.SparkHistoryListenerFactory' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/services/org.apache.spark.sql.sources.DataSourceRegister' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/services/org.glassfish.hk2.extension.ServiceLocatorGenerator' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/services/org.glassfish.jersey.internal.spi.AutoDiscoverable' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/services/org.glassfish.jersey.internal.spi.ForcedAutoDiscoverable' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/services/org.glassfish.jersey.servlet.spi.AsyncContextDelegateProvider' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/services/org.glassfish.jersey.servlet.spi.FilterUrlMappingsProvider' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'javax/inject/Inject.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'javax/inject/Named.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'javax/inject/Provider.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'javax/inject/Qualifier.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'javax/inject/Scope.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'javax/inject/Singleton.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'org/aopalliance/aop/Advice.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'org/aopalliance/aop/AspectException.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'org/aopalliance/intercept/ConstructorInterceptor.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'org/aopalliance/intercept/ConstructorInvocation.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'org/aopalliance/intercept/Interceptor.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'org/aopalliance/intercept/Invocation.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'org/aopalliance/intercept/Joinpoint.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'org/aopalliance/intercept/MethodInterceptor.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'org/aopalliance/intercept/MethodInvocation.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'org/apache/commons/beanutils/BasicDynaBean.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'org/apache/commons/beanutils/BasicDynaClass.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'org/apache/commons/beanutils/BeanAccessLanguageException.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'org/apache/commons/beanutils/BeanUtils.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'org/apache/commons/beanutils/BeanUtilsBean$1.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'org/apache/commons/beanutils/BeanUtilsBean.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'org/apache/commons/beanutils/ConstructorUtils.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'org/apache/commons/beanutils/ContextClassLoaderLocal.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'org/apache/commons/beanutils/ConversionException.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'org/apache/commons/beanutils/ConvertUtils.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'org/apache/commons/beanutils/ConvertUtilsBean.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'org/apache/commons/beanutils/Converter.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'org/apache/commons/beanutils/ConvertingWrapDynaBean.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'org/apache/commons/beanutils/DynaBean.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'org/apache/commons/beanutils/DynaClass.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'org/apache/commons/beanutils/DynaProperty.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'org/apache/commons/beanutils/JDBCDynaClass.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'org/apache/commons/beanutils/LazyDynaBean.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'org/apache/commons/beanutils/LazyDynaClass.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'org/apache/commons/beanutils/LazyDynaMap.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'org/apache/commons/beanutils/MappedPropertyDescriptor.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'org/apache/commons/beanutils/MethodUtils$MethodDescriptor.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'org/apache/commons/beanutils/MethodUtils.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'org/apache/commons/beanutils/MutableDynaClass.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'org/apache/commons/beanutils/NestedNullException.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'org/apache/commons/beanutils/PropertyUtils.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'org/apache/commons/beanutils/PropertyUtilsBean.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'org/apache/commons/beanutils/ResultSetDynaClass.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'org/apache/commons/beanutils/ResultSetIterator.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'org/apache/commons/beanutils/RowSetDynaClass.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'org/apache/commons/beanutils/WrapDynaBean.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'org/apache/commons/beanutils/WrapDynaClass.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'org/apache/commons/beanutils/converters/AbstractArrayConverter.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'org/apache/commons/beanutils/converters/BigDecimalConverter.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'org/apache/commons/beanutils/converters/BigIntegerConverter.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'org/apache/commons/beanutils/converters/BooleanArrayConverter.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'org/apache/commons/beanutils/converters/BooleanConverter.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'org/apache/commons/beanutils/converters/ByteArrayConverter.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'org/apache/commons/beanutils/converters/ByteConverter.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'org/apache/commons/beanutils/converters/CharacterArrayConverter.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'org/apache/commons/beanutils/converters/CharacterConverter.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'org/apache/commons/beanutils/converters/ClassConverter.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'org/apache/commons/beanutils/converters/DoubleArrayConverter.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'org/apache/commons/beanutils/converters/DoubleConverter.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'org/apache/commons/beanutils/converters/FileConverter.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'org/apache/commons/beanutils/converters/FloatArrayConverter.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'org/apache/commons/beanutils/converters/FloatConverter.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'org/apache/commons/beanutils/converters/IntegerArrayConverter.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'org/apache/commons/beanutils/converters/IntegerConverter.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'org/apache/commons/beanutils/converters/LongArrayConverter.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'org/apache/commons/beanutils/converters/LongConverter.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'org/apache/commons/beanutils/converters/ShortArrayConverter.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'org/apache/commons/beanutils/converters/ShortConverter.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'org/apache/commons/beanutils/converters/SqlDateConverter.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'org/apache/commons/beanutils/converters/SqlTimeConverter.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'org/apache/commons/beanutils/converters/SqlTimestampConverter.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'org/apache/commons/beanutils/converters/StringArrayConverter.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'org/apache/commons/beanutils/converters/StringConverter.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'org/apache/commons/beanutils/converters/URLConverter.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'org/apache/commons/beanutils/locale/BaseLocaleConverter.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'org/apache/commons/beanutils/locale/LocaleBeanUtils$Descriptor.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'org/apache/commons/beanutils/locale/LocaleBeanUtils.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'org/apache/commons/beanutils/locale/LocaleBeanUtilsBean$1.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'org/apache/commons/beanutils/locale/LocaleBeanUtilsBean$Descriptor.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'org/apache/commons/beanutils/locale/LocaleBeanUtilsBean.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'org/apache/commons/beanutils/locale/LocaleConvertUtils.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'org/apache/commons/beanutils/locale/LocaleConvertUtilsBean.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'org/apache/commons/beanutils/locale/LocaleConverter.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'org/apache/commons/beanutils/locale/converters/BigDecimalLocaleConverter.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'org/apache/commons/beanutils/locale/converters/BigIntegerLocaleConverter.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'org/apache/commons/beanutils/locale/converters/ByteLocaleConverter.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'org/apache/commons/beanutils/locale/converters/DateLocaleConverter.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'org/apache/commons/beanutils/locale/converters/DecimalLocaleConverter.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'org/apache/commons/beanutils/locale/converters/DoubleLocaleConverter.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'org/apache/commons/beanutils/locale/converters/FloatLocaleConverter.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'org/apache/commons/beanutils/locale/converters/IntegerLocaleConverter.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'org/apache/commons/beanutils/locale/converters/LongLocaleConverter.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'org/apache/commons/beanutils/locale/converters/ShortLocaleConverter.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'org/apache/commons/beanutils/locale/converters/SqlDateLocaleConverter.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'org/apache/commons/beanutils/locale/converters/SqlTimeLocaleConverter.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'org/apache/commons/beanutils/locale/converters/SqlTimestampLocaleConverter.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'org/apache/commons/beanutils/locale/converters/StringLocaleConverter.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'org/apache/commons/collections/ArrayStack.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'org/apache/commons/collections/Buffer.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'org/apache/commons/collections/BufferUnderflowException.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'org/apache/commons/collections/FastHashMap$1.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'org/apache/commons/collections/FastHashMap$CollectionView$CollectionViewIterator.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'org/apache/commons/collections/FastHashMap$CollectionView.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'org/apache/commons/collections/FastHashMap$EntrySet.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'org/apache/commons/collections/FastHashMap$KeySet.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'org/apache/commons/collections/FastHashMap$Values.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'org/apache/commons/collections/FastHashMap.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'org/apache/hadoop/yarn/factories/package-info.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'org/apache/hadoop/yarn/factory/providers/package-info.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'org/apache/hadoop/yarn/util/package-info.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'org/apache/spark/unused/UnusedStubClass.class' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'overview.html' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'rootdoc.txt' with strategy 'first'[0m
+[0m[[0m[33mwarn[0m] [0m[0mStrategy 'discard' was applied to 375 files[0m
+[0m[[0m[33mwarn[0m] [0m[0mStrategy 'first' was applied to 113 files[0m
+[0m[[0m[0minfo[0m] [0m[0mAssembly up to date: /home/treeve/virgindatatest/target/scala-2.11/virgindatatest-assembly-0.1.jar[0m
