@@ -7,7 +7,7 @@ Requirements
 A concept ETL process utilising spark and scala to process a large file of user info
 and join this data with other data from an API request in a scalable manner using Apache Spark. Main advantage being
 that it could very easily be changed to use a hadoop cluster or a data stream as its sink to process. Due
-due to being a distributed computation framework it can also be expanded to process larger datasets.
+due to Spark being a distributed computation framework it can also be expanded to process larger datasets.
 
 the end point for now is a JSON file but could as easily be loaded into a database or a cassandra cache etc.
 
